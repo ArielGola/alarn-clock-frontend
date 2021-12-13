@@ -1,0 +1,49 @@
+/* No decoration links */
+.no-sub {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.no-sub:hover {
+    color: rgb(60, 115, 230);
+}
+
+/* Title navbar */
+.title {
+    font-size: x-large;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.title:hover {
+    color: rgb(0, 155, 215);
+}
+
+/* Links */
+.a-link {
+    color: #f3f3f3;
+    font-size: large;
+    font-weight: 400;
+}
+
+.a-link:hover {
+    color: rgb(0, 155, 215);
+}
+
+/* Margin */
+.margin-left {
+    margin-left: 15px;
+}
+
+/* Row align */
+.in-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sizing img */
+.handle-size {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}

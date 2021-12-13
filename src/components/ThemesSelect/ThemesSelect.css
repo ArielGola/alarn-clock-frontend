@@ -1,0 +1,184 @@
+/* Format background card */
+.rectangle-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* Backgrounds cards */
+
+/* Background apps */
+.one {
+    background-image: url('../../compressed/01-min.jpg');
+    background-size: auto;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.two {
+    background-image: url('../../compressed/02-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.three {
+    background-image: url('../../compressed/03-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.four {
+    background-image: url('../../compressed/04-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+/* Alarm screen backgrounds */
+.five {
+    background-image: url('../../compressed/05-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.six {
+    background-image: url('../../compressed/06-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.seven {
+    background-image: url('../../compressed/07-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.eight {
+    background-image: url('../../compressed/08-min.png');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+/* Card backgrounds */
+.nine {
+    background-image: url('../../compressed/13-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.ten {
+    background-image: url('../../compressed/14-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.eleven {
+    background-image: url('../../compressed/15-min.jpg');
+    background-size: cover;
+    background-position: center;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.twelve {
+    background-image: url('../../compressed/16-min.jpg');
+    background-size: cover;
+    background-position: 50% 60%;
+
+    padding: 10px;
+    margin: 10px;
+
+    min-height: 250px;
+    height: 250px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+}
+
+/* Shadow hover */
+.hover-img:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+    transition: box-shadow 0.2s, filter 0.2s;
+}

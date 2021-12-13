@@ -1,0 +1,266 @@
+/* Volume Card */
+.volume-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Volume card width */
+.flex-range {
+  width: 100%;
+}
+
+/* Content shadow */
+.shadow {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Dimensions */
+.background {
+  height: 175px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Default background */
+.null-card {
+  background-color: rgb(219, 218, 255);
+}
+
+/* Backgrounds */
+.nine-card {
+  background-image: url("../../compressed/13-min.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.ten-card {
+  background-image: url("../../compressed/14-min.jpg");
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.eleven-card {
+  background-image: url("../../compressed/15-min.jpg");
+  background-size: cover;
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
+}
+
+.twelve-card {
+  background-image: url("../../compressed/16-min.jpg");
+  background-size: cover;
+  background-position: 55% 60%;
+}
+
+/* Font size */
+.font-sizing {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* Font size volume card */
+.font-volume {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Buttons container */
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* Edit button */
+.btn-edit {
+  font-size: large;
+  text-decoration: none;
+  text-align: center;
+  color: #f3f3f3;
+
+  background-color: rgb(20, 20, 125);
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-edit:hover {
+  background-color: rgb(50, 50, 155);
+  color: #f3f3f3;
+}
+
+/* Delete button */
+.btn-delete {
+  font-size: large;
+  text-decoration: none;
+  text-align: center;
+  color: #f3f3f3;
+  font-weight: 600;
+
+  background-color: rgb(135, 10, 10);
+  width: 35px;
+  height: 35px;
+
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-delete:hover {
+  background-color: rgb(175, 50, 50);
+  color: #f3f3f3;
+}
+
+/* Alar card title sizing */
+.time-title {
+  font-size: x-large;
+}
+
+/* Swich align content */
+.align-switch {
+  display: flex;
+  flex-direction: row;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 25.5px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19.5px;
+  width: 19.5px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(19.5px);
+  -ms-transform: translateX(19.5px);
+  transform: translateX(19.5px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 25.5px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.text-label {
+  margin-left: 10px;
+}
+
+/* Close button */
+.alert-button-close {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Close alert card */
+.button-close-alert {
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+  font-size: large;
+  font-weight: 900;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+}
+
+.button-close-alert:hover {
+  border: none;
+  background-color: rgb(255, 148, 148);
+}
+
+/* Card align as column */
+.align-column-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Loader */
+.card-loader {
+  margin-top: 100px;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  animation: spin 1.3s linear infinite;
+}
+
+/* Medias */
+@media (max-width: 350px) {
+  .align-switch {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

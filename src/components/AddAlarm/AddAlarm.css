@@ -1,0 +1,60 @@
+/* Container button */
+.footer-add {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+}
+
+/* Centralize button */
+.btn-center {
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+
+    background-color: rgb(0, 160, 125);
+    width: 60px;
+    height: 60px;
+    padding-bottom: 7px;
+
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.btn-center:hover {
+    background-color: rgb(40, 200, 165);
+}
+
+/* Icon color */
+.btn-icon {
+    color: #f3f3f3;
+}
+
+/* Medias */
+@media (max-width: 570px) {
+    .footer-add {
+        bottom: 7%;
+        right: 10%;
+    }
+}
+
+@media (max-width: 770px) and (min-width: 571px) {
+    .footer-add {
+        bottom: 10%;
+        right: 10%;
+    }
+}
+
+@media (min-width: 771px) {
+    .footer-add {
+        bottom: 10%;
+        right: 10%;
+    }
+}

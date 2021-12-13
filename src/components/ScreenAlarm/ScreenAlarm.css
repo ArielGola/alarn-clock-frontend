@@ -1,0 +1,91 @@
+/* Align content */
+.first-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+/* Title */
+.header {
+    display: inline;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    padding: 15px 10px 10px 10px;
+    width: 40%;
+
+    border-radius: 50px;
+
+    box-shadow: 5px 5px 15px rgba(54, 38, 38, 0.4);
+
+    background-color: rgba(0, 0, 0, .4);
+
+    color: rgb(228, 228, 228);
+    font-weight: 900;
+}
+
+/* Footer button */
+.button-footer {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30%;
+}
+
+/* Off button */
+.off-button {
+    text-decoration: none;
+    border: none;
+    background-color: #f5f5f5;
+    color: black;
+    padding: 10px 10px 12px 10px;
+    font-size: x-large;
+
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+
+    border-radius: 50px;
+}
+
+.off-button:hover {
+    transition-duration: 0.3s;
+    transition-property: background-color;
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+
+
+@media (min-width: 766px) and (max-width: 990px) {
+    .header {
+        margin-top: 20%;
+    }
+    .button-footer {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1395px) {
+    .header {
+        margin-top: 10%;
+    }
+    .button-footer {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 1396px) {
+    .header {
+        margin-top: 10%;
+    }
+    .button-footer {
+        margin-top: 15%;
+    }
+}
+
+@media (max-height: 490px) {
+    .first-align {
+        justify-content: start;
+    }
+}

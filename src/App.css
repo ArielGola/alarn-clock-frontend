@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* No scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* No background app */
+.null-app {
+  background-color: #0084ff;
+}
+
+/* Dimensions background */
+.app-background {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Backrounds */
+.one-app {
+  background-image: url('./compressed/01-min.jpg');
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.two-app {
+  background-image: url('./compressed/02-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.three-app {
+  background-image: url('./compressed/03-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.four-app {
+  background-image: url('./compressed/04-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Alarm screen background */
+.five-app {
+  background-image: url('./compressed/05-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.six-app {
+  background-image: url('./compressed/06-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.seven-app {
+  background-image: url('./compressed/07-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.eight-app {
+  background-image: url('./compressed/08-min.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Screen alarm dimensions */
+.app-screen-alarm {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+/* Flex style modal */
+.flex-screen {
+  min-height: 100vh;
+  height: 100vh;
+  padding: 15px;
+  margin-top: 15vh;
+}
